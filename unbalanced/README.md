@@ -1,0 +1,1 @@
+This file is here more like an archive than to present any results. The code has been imporved and is at hand in the MAM_general_algo file.
