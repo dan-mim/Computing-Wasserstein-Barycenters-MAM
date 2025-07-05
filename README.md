@@ -1,4 +1,13 @@
 
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+![Python](https://img.shields.io/badge/Python-3.8%2B-green)
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![Platform](https://img.shields.io/badge/platform-MPI%20%7C%20CPU-lightgrey)
+
+![Last Commit](https://img.shields.io/github/last-commit/dan-mim/computing-wasserstein-barycenters-MAM)
+![Repo Size](https://img.shields.io/github/repo-size/dan-mim/computing-wasserstein-barycenters-MAM)
+
+
 # 🔷 Method of Averaged Marginals (MAM)
 
 **Exact Wasserstein Barycenter via Douglas–Rachford Splitting / Averaged Marginals**  
