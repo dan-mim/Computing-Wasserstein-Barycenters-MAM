@@ -42,7 +42,6 @@ pip install -r requirements.txt
 > ```
 
 ---
-
 ## 📁 Repository Structure
 
 ```
@@ -57,6 +56,34 @@ pip install -r requirements.txt
 ```
 
 ---
+
+
+## ⚙️ Running MAM in Parallel
+
+The MAM algorithm is implemented to run in **parallel using MPI**, enabling efficient computation on large datasets. It distributes the input distributions across multiple processes to parallelize marginal projections and speed up convergence.
+
+To run MAM, use `mpiexec` (or `mpirun`) and specify the number of processes (typically the number of CPU cores you want to use):
+
+```bash
+mpiexec -n 4 python your_script.py
+```
+
+For example, to run the main MAM computation on a dataset with 4 parallel workers:
+
+```bash
+cd toy_example
+mpiexec -n 4 python demo.py
+```
+
+> 🔁 You can change `-n 4` to any number of available cores on your machine or computing cluster.
+
+> ⚠️ Make sure `mpi4py` is installed in your environment:
+> ```bash
+> pip install mpi4py
+> ```
+
+---  
+
 
 ## 📘 Citation
 
