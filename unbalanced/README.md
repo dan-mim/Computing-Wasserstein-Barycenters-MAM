@@ -16,7 +16,7 @@ SIAM Journal on Mathematics of Data Science, 2024.
   Contains the discrete input distributions used to generate **Figure 7 (top row)** of the article.  
   These correspond to stylized letter shapes.  
   The original inputs are stored in:
-  ![Unbalanced dataset of letters](figures/mAM_dataset.png)
+  ![Unbalanced dataset of letters](figures/mAM_dataset.PNG)
 
 
 - `dataset_nested_ellipses/`  
@@ -80,10 +80,10 @@ This document provides visual interpretations and analysis of the figures obtain
 
 After 1000 iterations of MAM with `gamma > 0`, we obtain:
 
-![Result: unbalanced MAM](figures/res_MAM_upper_1000s.png)
+![Result: unbalanced MAM](figures/res_MAM_upper_1000s.PNG)
 
 You should be able to evaluate the impact of gamma like in Figure 9 of the article.
-![Result: Influence of Gamma unbalanced MAM](figures/impact_of_gamma.png)
+![Result: Influence of Gamma unbalanced MAM](figures/impact_of_gamma.PNG)
 
 ### Interpretation:
 - The barycenter is computed using **unbalanced optimal transport**
