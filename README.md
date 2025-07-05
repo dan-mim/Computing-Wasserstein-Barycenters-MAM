@@ -11,7 +11,7 @@
 
 **Exact Wasserstein Barycenter via Douglas–Rachford Splitting / Averaged Marginals**
 This work has been published in SIAM Mathematics for Data Sciences: *Computing Wasserstein Barycenter via operator splitting: the method
-of averaged marginals*
+of averaged marginals*;
 *Mimouni, Malisani, Zhu & de Oliveira — SIAM J. Math. Data Sci., 2024*
 
 This repository contains a clean, modular implementation of the **Method of Averaged Marginals (MAM)** to compute **exact (unregularized)** Wasserstein barycenters of discrete probability distributions. It supports both **balanced** and **unbalanced** variants by formulating the problem as a **monotone inclusion** solved via **Douglas–Rachford splitting**.
@@ -126,5 +126,5 @@ MAM has been compared to IBP, a widely adopted state-of-the-art method known for
 
 For usage instructions, experiments and visualizations, please refer to the folders:
 - `toy_example/` for basic demos
-- `free_support_ellipse/` for geometric barycenters (Fig. 6.3)
-- `unbalanced/` for unbalanced OT settings (Figs. 8 & 9)
+- `free_support_ellipse/` More details in Section 6.3 of the article
+- `unbalanced/` More details and illustrations in Section 6.4 of the article
