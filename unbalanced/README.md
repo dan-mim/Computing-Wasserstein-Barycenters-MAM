@@ -16,14 +16,16 @@ SIAM Journal on Mathematics of Data Science, 2024.
   Contains the discrete input distributions used to generate **Figure 7 (top row)** of the article.  
   These correspond to stylized letter shapes.  
   The original inputs are stored in:
-  <img src="figures/mAM_dataset.PNG" width="100"/>
+
+  <img src="figures/mAM_dataset.PNG" width="300"/>
 
 
 
 - `dataset_nested_ellipses/`  
   Contains datasets used to reproduce **Figures 8 and 9** of the article (nested geometric distributions).  
   Useful to explore the unbalanced barycenter effect on more abstract shapes.
-  <img src="figures/dataset_nested_ellipses.PNG" width="200"/>
+  
+  <img src="figures/dataset_nested_ellipses.PNG" width="300"/>
 
 ---
 
@@ -85,7 +87,8 @@ After 1000 iterations of MAM with `gamma > 0`, we obtain:
 <img src="figures/res_MAM_upper_1000s.PNG" width="400"/>
 
 You should be able to evaluate the impact of gamma like in Figure 9 of the article.
-<img src="figures/impact_of_gamma.PNG" width="400"/>
+
+<img src="figures/impact_of_gamma.PNG" width="500"/>
 
 ### Interpretation:
 - The barycenter is computed using **unbalanced optimal transport**
