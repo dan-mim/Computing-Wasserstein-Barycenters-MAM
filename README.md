@@ -108,7 +108,7 @@ If you use this code or reproduce the results, please cite:
 MAM has been compared to IBP, a widely adopted state-of-the-art method known for its simplicity and practical accuracy. However, as demonstrated in the article, when high-precision results are required, our proposed exact method offers significantly better performance and reliability.
 
 <p align="center">
-  <img src="toy_examples/figures/qualitative.PNG.PNG" width="400"/>
+  <img src="toy_examples/figures/qualitative.PNG" width="400"/>
 </p>
 
 ---
