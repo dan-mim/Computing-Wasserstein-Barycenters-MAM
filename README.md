@@ -74,9 +74,14 @@ If you use this code or reproduce the results, please cite:
   doi={10.1137/23M1584228}
 }
 ```
+---
+
+## 🚀 Comparison with state of the art methods
+
+MAM has been compared to IBP, a widely adopted state-of-the-art method known for its simplicity and practical accuracy. However, as demonstrated in the article, when high-precision results are required, our proposed exact method offers significantly better performance and reliability.
 
 <p align="center">
-  <img src="unbalanced/figures/res_MAM_upper_1000s.PNG" width="400"/>
+  <img src="toy_examples/figures/qualitative.PNG.PNG" width="400"/>
 </p>
 
 ---
