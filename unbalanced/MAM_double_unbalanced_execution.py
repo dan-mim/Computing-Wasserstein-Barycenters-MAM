@@ -14,7 +14,7 @@ from mpi4py import MPI
 import sys
 
 # My codes:
-# MAM parallel with the unbalanced configuration if needed
+# mam parallel with the unbalanced configuration if needed
 from MAM_parallel_double_unbalanced import *
 
 # Exact method that solves the LP and find the Wasserstein distance between two measures PARALLELIZED

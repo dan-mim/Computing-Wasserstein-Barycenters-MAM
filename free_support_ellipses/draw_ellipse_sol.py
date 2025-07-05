@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import math
 
-def process_img(img,fname=None):
+def process_img(img,fname=None, save=False):
     # Image is an n x 3 numpy array, where each row [x,y,mu] represents
     # a support point at (x,y) of weight mu.
     x = img[:,0]
@@ -34,7 +34,7 @@ def process_img(img,fname=None):
     plt.axis('scaled')
     plt.xlim(rangex)
     plt.ylim(rangey)
-    if 1==2: #fname:
+    if save: #fname:
         plt.savefig('outputfigs/' + fname.split('/')[-1] + '.pdf',bbox_inches="tight")
         plt.close()
     else:
@@ -47,3 +47,5 @@ def draw_data_set(filename):
         imgs = [imgs]
     for i, img in enumerate(imgs):
         process_img(img,fname=filename + '-' + str(i))
+
+draw_data_set("dataset/input_ellipse_data_coordinates.pkl")
