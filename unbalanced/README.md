@@ -16,14 +16,14 @@ SIAM Journal on Mathematics of Data Science, 2024.
   Contains the discrete input distributions used to generate **Figure 7 (top row)** of the article.  
   These correspond to stylized letter shapes.  
   The original inputs are stored in:
-  <img src="figures/mAM_dataset.PNG" width="400"/>
+  <img src="figures/mAM_dataset.PNG" width="100"/>
 
 
 
 - `dataset_nested_ellipses/`  
   Contains datasets used to reproduce **Figures 8 and 9** of the article (nested geometric distributions).  
   Useful to explore the unbalanced barycenter effect on more abstract shapes.
-  <img src="figures/dataset_nested_ellipses.PNG" width="400"/>
+  <img src="figures/dataset_nested_ellipses.PNG" width="200"/>
 
 ---
 
