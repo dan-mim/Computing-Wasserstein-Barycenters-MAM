@@ -1,9 +1,39 @@
-# MAM
-The Method of Averaged Marginals (MAM) to compute the Wasserstein Barycenter problem
+# Method of Averaged Marginals (MAM)
 
-This repository corresponds to the code that has been created for article *Computing Wasserstein Barycenters via Operator Splitting: the Method of Averaged Marginals* published in journal [SIMODS](https://www.siam.org/publications/siam-journals/siam-journal-on-mathematics-of-data-science/).
+**Exact Wasserstein Barycenter via Douglas–Rachford / Averaged Marginals**  
+*Mimouni, Malisani, Zhu & de Oliveira, SIAM J. Math. Data Sci. 2024* :contentReference[oaicite:3]{index=3}
 
-## Abstract
-The Wasserstein barycenter (WB) is an important tool for summarizing sets of probability measures. It finds applications in applied probability, clustering, image processing, etc. When the measures' supports are finite, computing a \rev{(balanced)} WB can be done by solving a linear optimization problem whose dimensions generally exceed standard solvers' capabilities. 
-\rev{In the more general setting where measures have different total masses, we propose a convex nonsmooth optimization formulation for the so-called unbalanced WB problem. Due to their colossal dimensions, we introduce a decomposition scheme based on the Douglas-Rachford splitting method that can be applied to both balanced and unbalanced WB problem variants.}
-Our algorithm, which has the interesting interpretation of being built upon averaging marginals, operates a series of simple (and exact) projections that can be parallelized and even randomized, making it suitable for large-scale datasets. Numerical comparisons against state-of-the-art methods on several data sets from the literature illustrate the method's performance.
+This repository contains a clean, modular implementation of the MAM algorithm for computing **exact** (unregularized) Wasserstein barycenters of discrete measures—capable of handling both **balanced** and **unbalanced** cases via operator splitting. The algorithm is based on the Douglas–Rachford framework and efficiently performs exact projections on marginals, suitable for parallel processing and large-scale data :contentReference[oaicite:4]{index=4}.
+
+---
+
+## 🚀 Highlights
+
+- **Exact solution** of the linear Wasserstein barycenter problem (no entropic smoothing)
+- Supports **balanced** (equal mass) and **unbalanced** (mass creation/destruction) variants
+- Based on operator splitting (Douglas–Rachford) – interpretable as averaging marginals
+- Fully **parallelizable**, scalable to large discrete datasets :contentReference[oaicite:5]{index=5}
+- Demonstrated **state-of-the-art** performance in convergence and precision :contentReference[oaicite:6]{index=6}
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/dan‑mim/MAM.git
+cd MAM
+pip install -r requirements.txt
+
+---
+
+## Cite this article
+@article{mimouni2024computing,
+  title={Computing Wasserstein Barycenter via Operator Splitting: The Method of Averaged Marginals},
+  author={Mimouni, Daniel and Malisani, Paul and Zhu, Jiamin and de Oliveira, Welington},
+  journal={SIAM Journal on Mathematics of Data Science},
+  volume={6},
+  number={4},
+  pages={1000–1026},
+  year={2024},
+  doi={10.1137/23M1584228}
+}
