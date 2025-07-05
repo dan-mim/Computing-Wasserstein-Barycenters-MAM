@@ -3,6 +3,11 @@
 This folder allows you to **reproduce the results from Section 6.3** of the paper:  
 **"Computing Wasserstein Barycenter via Operator Splitting: The Method of Averaged Marginals" (Mimouni et al., 2024)**.
 
+<p align="center">
+  <img src="figures/MAM.png" width="500"/>
+</p>
+
+
 ---
 
 ## 📁 Contents
@@ -27,8 +32,17 @@ This folder allows you to **reproduce the results from Section 6.3** of the pape
 - `outputs_altschuler/`  
   Contains barycenter results computed using the method from Altschuler et al.
 
+<p align="center">
+  <img src="figures/altschuler.png" width="500"/>
+</p>
+
+
 - `outputs_mam/`  
   Contains barycenter results computed using the proposed **MAM** method.
+This folder also gives more insight about the stopping criteria and MAM convergence
+<p align="center">
+  <img src="figures/evolution_MAM.png" width="500"/>
+</p>
 
 ---
 
