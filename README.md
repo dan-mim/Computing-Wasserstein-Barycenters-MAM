@@ -9,7 +9,9 @@
 
 # 🔷 Method of Averaged Marginals (MAM)
 
-**Exact Wasserstein Barycenter via Douglas–Rachford Splitting / Averaged Marginals**  
+**Exact Wasserstein Barycenter via Douglas–Rachford Splitting / Averaged Marginals**
+This work has been published in SIAM Mathematics for Data Sciences: *Computing Wasserstein Barycenter via operator splitting: the method
+of averaged marginals*
 *Mimouni, Malisani, Zhu & de Oliveira — SIAM J. Math. Data Sci., 2024*
 
 This repository contains a clean, modular implementation of the **Method of Averaged Marginals (MAM)** to compute **exact (unregularized)** Wasserstein barycenters of discrete probability distributions. It supports both **balanced** and **unbalanced** variants by formulating the problem as a **monotone inclusion** solved via **Douglas–Rachford splitting**.
@@ -25,12 +27,13 @@ MAM interprets each step as an **averaging of projected marginals**, which leads
 ## 🚀 Highlights
 
 - **Exact solution** of the linear (non-entropic) Wasserstein barycenter problem
-- Supports both **balanced** and **unbalanced** (mass creation/destruction) OT
+- Adaptable to the **free support** generalization of the problem, details are in the [free support folder](/free_support_ellipses/)
+- Supports both **balanced** and **unbalanced** (mass creation/destruction) OT, see [the unbalanced folder](/unbalanced/),
 - Based on **Douglas–Rachford operator splitting**
 - Each iteration involves simple, exact projections (e.g., simplex projections)
-- Interpretable as an **averaged marginal projection method**
-- Fully **parallelizable** (MPI), highly scalable
-- State-of-the-art convergence properties (faster and more stable than Sinkhorn)
+- Interpretation is easy
+- Fully **parallelizable** (MPI), highly scalable, see [this section for more](#️-running-mam-in-parallel),
+- State-of-the-art convergence performances
 
 ---
 
