@@ -12,8 +12,8 @@ This repository contains a clean, modular implementation of the MAM algorithm fo
 - **Exact solution** of the linear Wasserstein barycenter problem (no entropic smoothing)
 - Supports **balanced** (equal mass) and **unbalanced** (mass creation/destruction) variants
 - Based on operator splitting (Douglas–Rachford) – interpretable as averaging marginals
-- Fully **parallelizable**, scalable to large discrete datasets :contentReference[oaicite:5]{index=5}
-- Demonstrated **state-of-the-art** performance in convergence and precision :contentReference[oaicite:6]{index=6}
+- Fully **parallelizable**, scalable to large discrete datasets
+- Demonstrated **state-of-the-art** performance in convergence and precision
 
 ---
 
