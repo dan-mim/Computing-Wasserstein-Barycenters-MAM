@@ -49,9 +49,9 @@ pip install -r requirements.txt
 /
 ├── mam/                      # Core MAM package
 ├── toy_example/              # Simple usage demos
-├── free_support_ellipse/     # Experiment from Section 6.3 of the paper
-├── unbalanced/               # Experiments with non-matching total mass
-├── figures/                  # Visual assets and extracted figures
+├── free_support_ellipse/     # Free support setting: experiment from Section 6.3 of the paper
+├── unbalanced/               # Unbalanced setting: experiments with non-matching total mass
+├── figures/                  
 ├── LICENSE
 └── README.md
 ```
