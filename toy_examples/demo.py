@@ -14,7 +14,7 @@ from mam import MAM
 
 ## Test 1 with centered digits
 N = 10
-with open('digit_datasets/3_centered.pkl', 'rb') as f:  # b_centers_MNIST #b_1_mat
+with open('toy_examples/digit_datasets/3_centered.pkl', 'rb') as f:  # b_centers_MNIST #b_1_mat
     l_b = pickle.load(f)
 b = l_b[:N]
 
@@ -27,7 +27,7 @@ MAM(b, rho=.1,
 
 ## Test 2 with randomly placed and scaled digits
 N = 10
-with open('digit_datasets/3_randomPosScaled.pkl', 'rb') as f:  # b_centers_MNIST #b_1_mat
+with open('toy_examples/digit_datasets/3_randomPosScaled.pkl', 'rb') as f:  # b_centers_MNIST #b_1_mat
     l_b = pickle.load(f)
 b = l_b[:N]
 
